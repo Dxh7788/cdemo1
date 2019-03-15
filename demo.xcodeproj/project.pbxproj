@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		157EF9B62237B53100A597CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157EF9B52237B53100A597CC /* main.cpp */; };
+		157EF9BE2237B66100A597CC /* jelly_os.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 157EF9BD2237B66100A597CC /* jelly_os.cpp */; };
+		15A0791C2239F54A0031ECC7 /* jelly_extern_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A0791A2239F54A0031ECC7 /* jelly_extern_c.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		157EF9B22237B53100A597CC /* demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		157EF9B52237B53100A597CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		157EF9BC2237B58F00A597CC /* jelly_os.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jelly_os.h; sourceTree = "<group>"; };
+		157EF9BD2237B66100A597CC /* jelly_os.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jelly_os.cpp; sourceTree = "<group>"; };
+		15A079192239F4AB0031ECC7 /* jelly_extern_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jelly_extern_c.h; sourceTree = "<group>"; };
+		15A0791A2239F54A0031ECC7 /* jelly_extern_c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jelly_extern_c.cpp; sourceTree = "<group>"; };
+		15A0791B2239F54A0031ECC7 /* jelly_extern_c.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jelly_extern_c.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				157EF9B52237B53100A597CC /* main.cpp */,
+				157EF9BC2237B58F00A597CC /* jelly_os.h */,
+				157EF9BD2237B66100A597CC /* jelly_os.cpp */,
+				15A079192239F4AB0031ECC7 /* jelly_extern_c.h */,
+				15A0791A2239F54A0031ECC7 /* jelly_extern_c.cpp */,
+				15A0791B2239F54A0031ECC7 /* jelly_extern_c.hpp */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A0791C2239F54A0031ECC7 /* jelly_extern_c.cpp in Sources */,
+				157EF9BE2237B66100A597CC /* jelly_os.cpp in Sources */,
 				157EF9B62237B53100A597CC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
