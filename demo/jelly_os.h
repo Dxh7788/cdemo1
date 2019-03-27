@@ -13,6 +13,9 @@
 #endif /* JellyOs_h */
 #define HOTSPOT_JNI_CREATEJAVAVM_ENTRY(arg0, arg1, arg2)
 #define CHILD_DECL :Box
+#define VM_SYMBOL_ENUM_NAME_BODY(name, string) #name "\0"
+#define VM_ALIAS_IGNORE(id, id2)                         /*ignored*/
+
 class Box
 {
 public:
